@@ -8,7 +8,7 @@ metadata:
   namespace: searx
 spec:
   rules:
-  - host: example.com
+  - host: example.com <--------------- change to your domain
     http:
       paths:
       - backend:
@@ -27,5 +27,5 @@ spec:
         pathType: ImplementationSpecific
   tls:
   - hosts:
-    - example.com
+    - example.com <--------------- change to your domain
     secretName: searx
