@@ -36,7 +36,7 @@ spec:
         terminationMessagePolicy: File
       - env:
         - name: MORTY_URL
-          value: https://example.com/morty/
+          value: https://example.com/morty/   <--------------- change to your domain+ /morty/
         - name: MORTY_KEY
           value: redacted
         image: searx/searx:latest
